@@ -1,0 +1,52 @@
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "游ゴシック", sans-serif;
+}
+
+.questionnaire-form {
+    width: 640px;
+    margin: 0 auto;
+    font-size: 16px;
+    border: solid 0.5px #bfbfbf;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.form-title {
+    width: 640px;
+    margin: 30px auto;
+    font-size: 32px;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.left {
+    width: 240px;
+    padding: 8px 64px 8px 16px;
+    border: solid 0.5px #bfbfbf;
+    border-left: transparent;
+}
+
+.right {
+    width: 400px;
+    padding: 8px 0px 8px 8px;
+    border: solid 0.5px #bfbfbf;
+    border-right: transparent;
+}
+
+.cbox {
+    margin-bottom: 24px;
+}
+
+.submitbox {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.submitbox:hover {
+    opacity: 0.6;
+  }
